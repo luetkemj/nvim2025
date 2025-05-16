@@ -1,4 +1,4 @@
-require("sethy.core")
-require("sethy.lazy")
+require("luetkemj.core")
+require("luetkemj.lazy")
 require("current-theme")
-require("sethy.terminalpop")
+require("luetkemj.terminalpop")
