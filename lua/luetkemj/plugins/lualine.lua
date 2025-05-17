@@ -58,7 +58,6 @@ return {
         local filename = {
             'filename',
             file_status = true,
-            path = 1,
         }
 
         local branch = {'branch', icon = {'', color={fg='#A6D4DE'}}, '|'}
@@ -67,9 +66,8 @@ return {
 		lualine.setup({
             icons_enabled = true,
 			options = {
-				theme = my_lualine_theme,
-				component_separators = { left = "|", right = "|" },
-				section_separators = { left = "|", right = "" },
+				-- theme = my_lualine_theme,
+				theme = 'everforest',
 			},
 			sections = {
                 lualine_a = { mode },
