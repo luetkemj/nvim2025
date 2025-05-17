@@ -1,6 +1,6 @@
 ## neovim config 2025
 
-**NVIM v.0.9.1**
+**NVIM v.0.11.1**
 
 1. **remove old config:**
 
