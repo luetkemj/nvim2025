@@ -25,6 +25,7 @@ return {
                     "yaml",
                     "html",
                     "css",
+                    "scss",
                     "python",
                     "http",
                     "prisma",

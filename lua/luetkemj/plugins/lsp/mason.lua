@@ -41,8 +41,6 @@ return {
                 "cssls",
                 "tailwindcss",
                 "gopls",
-                "emmet_ls",
-                "emmet_language_server",
                 -- "eslint",
                 "marksman",
             },

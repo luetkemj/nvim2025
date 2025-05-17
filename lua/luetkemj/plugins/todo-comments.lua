@@ -2,7 +2,7 @@ return {
 	-- Quickly Jump through the todo tags
 	"folke/todo-comments.nvim",
 	event = { "BufReadPre", "BufNewFile" },
-	dependencies = { "nvim-lua/plenary.nvim"},
+	dependencies = { "nvim-lua/plenary.nvim" },
 	config = function()
 		local todo_comments = require("todo-comments")
 
@@ -14,7 +14,7 @@ return {
 					alt = { "FIXME", "BUG", "FIXIT", "ISSUE" }, -- a set of other keywords that all map to this FIX keywords
 					-- signs = false, -- configure signs for some keywords individually
 				},
-				TODO = { icon = " ", color = "info" },
+				TODO = { icon = " ", color = "info", alt = { "todo" } },
 				HACK = { icon = " ", color = "warning", alt = { "DON SKIP" } },
 				WARN = { icon = " ", color = "warning", alt = { "WARNING", "XXX" } },
 				PERF = { icon = " ", alt = { "OPTIM", "PERFORMANCE", "OPTIMIZE" } },
