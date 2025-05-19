@@ -40,7 +40,6 @@ return {
                 "html",
                 "cssls",
                 "tailwindcss",
-                "gopls",
                 -- "eslint",
                 "marksman",
             },
