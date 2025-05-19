@@ -100,3 +100,6 @@ vim.cmd("command! -nargs=0 W w")
 
 -- unmap leader pv cause my fingers won't forget it 
 vim.keymap.set("n", "<leader>pv", "", { desc = "used to open netrw, use - to open oil instead." })
+
+-- clear search highlights
+vim.keymap.set('n', "<Esc>", ":nohlsearch<cr>", { noremap = true })
