@@ -98,6 +98,9 @@ end, { desc = "Toggle LSP diagnostics" })
 -- make :W do the same thing as :w
 vim.cmd("command! -nargs=0 W w")
 
+-- make :Q do the same thing as :q
+vim.cmd("command! -nargs=0 Q q")
+
 -- unmap leader pv cause my fingers won't forget it 
 vim.keymap.set("n", "<leader>pv", "", { desc = "used to open netrw, use - to open oil instead." })
 
